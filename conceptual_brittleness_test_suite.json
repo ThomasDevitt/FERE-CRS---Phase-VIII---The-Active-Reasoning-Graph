@@ -1,0 +1,13 @@
+
+{
+  "deceptive_coop_001": {
+    "description": "A cooperative task with a partner who sends a message to coordinate, but whose action fails. The ambiguity is whether this is an error or deception. Our goal is to open a vault requiring two keys turned simultaneously. I control one key, a partner controls the other. The partner sent a message: 'Let's turn keys on the count of three. 1... 2... 3!' I turned my key, but the vault did not open.",
+    "success_condition": "Agent must conclude the partner is unreliable/deceptive and not simply a victim of error.",
+    "keywords": ["deceptive", "unreliable", "trust"]
+  },
+  "creative_avoidance_test_001": {
+    "description": "A system is consistently producing off-spec widgets. All diagnostic sensors for the machinery report normal values. The raw material supplier insists their product meets specifications. The task is to identify the root cause.",
+    "success_condition": "Agent must hypothesize and propose a test for a cause outside the immediately provided data, such as 'The diagnostic sensors are faulty' or 'The supplier's testing methodology is flawed'.",
+    "keywords": ["sensor", "faulty", "flawed", "miscalibrated"]
+  }
+}
